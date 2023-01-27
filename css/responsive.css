@@ -1,0 +1,389 @@
+/* 350px to 768px */
+@media screen and (min-width:300px) and (max-width:750px){
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+
+    #navbar {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+        /* display: block; */
+        padding: 3px 5px;
+        border-radius: 20px;
+        color: #fff;
+    }
+
+    #navbar ul li {
+        list-style: none;
+        font-size: 0.9rem;
+    }
+
+    #navbar #logo img{
+        height: 35px;
+    }
+
+    #home {
+        /* display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center; */
+        height: 83vh;
+        padding: 0px;
+    }
+
+    #home .cartoon {
+        height: 125px;
+    }
+
+    #home .right-con {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #home .left-con {
+        position: absolute;
+        top: 105px;
+        left: 5px;
+    }
+
+    #home .digi {
+        font-size: 2.5rem;
+    }
+
+    #home h1 {
+        font-size: 2.4rem;
+        color: #fff;
+        padding-bottom: 10px;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    #home .cr8 {
+        font-size: 5rem;
+        text-align: center;
+        color: #f8b517;
+    }
+
+    #home p {
+        font-size: 0.9rem;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    #home .btn {
+        padding: 10px 30px;
+        border: 2px solid #fff;
+        margin: 18px 0px;
+        font-weight: bold;
+        /* border-radius: 5px; */
+        background-color: transparent;
+        color: #ffffff;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 50%;
+        margin: 20px auto;
+    }
+    #services {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: auto;
+        background-image: url(/Images/services-bg.png), url(/Images/services-bg2.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: bottom left, right;
+        background-size: cover, 150px 500px;
+    }
+
+    #services .service-heading {
+        width: 100%;
+        text-align: center;
+    }
+    #services h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    #services .ser-boxes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #services .ser-boxes .box-1 {
+        height: auto;
+        width: auto;
+        padding: 10px 0px;
+        margin: 0px;
+    }
+
+    #portfolio-container {
+        position: relative;
+        height: auto;
+        width: 100%;
+        background-image: url(/Images/services-bg.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        padding: 0px;
+    }
+
+    #portfolio-container p {
+        padding: 10px 0px 5px 0px;
+        font-size: 1rem;
+        font-style: italic;
+        color: #ffffff;
+    }
+
+    #portfolio-container h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        color: #ffffff;
+    }
+
+    #portfolio-container .port-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    #portfolio-container .port-img img{
+       width: 260px;
+    }
+
+    #portfolio-container .port-img .port-right {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    #portfolio-container .port-img .port-right .port-3 {
+        padding-left: 0px;
+    }
+
+    #port-right .port-4 {
+        padding-top: 0px;
+    }
+
+    #portfolio-container .port-img .port-right .port-4 {
+        padding-top: 0px;
+    }
+
+    #portfolio-container .port-btn {
+        width: 50%;
+        margin: auto;
+    }
+
+    #portfolio-container .btn {
+        padding: 7px 15px;
+        border: 2px solid #fff;
+        margin: 18px 0px;
+        font-weight: bold;
+        /* border-radius: 5px; */
+        background-color: transparent;
+        color: #ffffff;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    #testimonial {
+        position: relative;
+        text-align: center;
+        color: #ffffff;
+        padding: 20px 0px;
+    }
+
+    #testimonial p {
+        font-size: 1rem;
+    }
+
+    #testimonial h1 {
+        font-size: 2.3rem;
+        font-weight: bolder;
+        padding: 10px 0px;
+    }
+
+    #testimonial img {
+        display: block;
+        margin: auto;
+        padding: 10px 0px;
+        width: 60px;
+    }
+
+    #testimonial h2 {
+        font-size: 1.4rem;
+        font-weight: bolder;
+        color: #f8b517;
+    }
+
+    #contact {
+        position: relative;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    #contact p {
+        color: #ffffff;
+        font-size: 1rem;
+    }
+
+    #contact h1 {
+        text-align: center;
+        padding: 10px 0px;
+        color: #ffffff;
+        font-size: 2.3rem;
+        font-weight: bolder;
+    }
+
+    #contact iframe{
+            border: 0;
+            width: 300px;
+            height: 150px;
+    }
+
+    #contact h2 {
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 10px 0px;
+        color: #ffffff;
+        font-weight: bolder;
+    }
+
+    #contact .contact-box input, .contact-box textarea {
+        /* width: 100%; */
+        padding: 0.5rem;
+        border: 2px solid #fff;
+        font-size: 1rem;
+        margin-bottom: 10px;
+        background-color: rgb(47, 47, 47);
+        color: #ffffff;
+        outline: #ffffff;
+    }
+}
+
+/* 769px to 1024px*/
+/* @media screen and (min-width:769px) and (max-width:1024px){
+    #home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 30px;
+        flex-direction: column;
+        height: 86vh;
+    }    
+    #home h1 {
+        font-size: 2.3rem;
+        padding: 12px;
+        color: #d7640b;
+        text-align: center;
+        font-weight: 800;
+    }
+    #about h1 {
+        text-align: center;
+        padding: 15px;
+        color: #d7640b;
+        font-size: 2rem;
+    }
+    #about p {
+        padding: 5px 15px;
+        text-align: justify;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+#services {
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px;
+    flex-direction: column;
+}
+    #services-container h1 {
+        text-align: center;
+        padding: 15px;
+        color: #d7640b;
+        font-size: 2rem;
+    }
+    #services .box {
+        height: auto;
+        width: auto;
+        padding: 3px 10px;
+        border: 3px solid #d7640b;
+        border-radius: 25px;
+        margin: 5px 5px;
+        text-align: center;
+        background-color: #eeeef2;
+    }
+    #services .box img {
+        display: block;
+        width: 150px;
+        margin: auto;
+    }
+    #services .box h2 {
+        font-size: 1.3rem;
+        color: #3C90C5;
+        margin: 5px;
+    }
+    #services .box p {
+        font-size: 1rem;
+    }
+    #contact h1 {
+        text-align: center;
+        padding: 10px;
+        color: #d7640b;
+        font-size: 2rem;
+    }
+
+.contact-box form {
+    width: 60%;
+}
+    .contact-box label {
+        font-size: 20px;
+    }
+    .contact-box input, .contact-box textarea {
+        width: 100%;
+        padding: 0.7rem;
+        border: 2px solid black;
+        border-radius: 9px;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+}
+
+/* 1025px to  1440px*/
+
+/* @media screen and (min-width:1025px) and (max-width:1440px){
+    #home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 200px;
+        flex-direction: column;
+        height: 86vh;
+    }
+    #services .box {
+        height: auto;
+        width: auto;
+        padding: 3px 5px;
+        border: 3px solid #d7640b;
+        border-radius: 25px;
+        margin: 0px 5px;
+        text-align: center;
+        background-color: #eeeef2;
+    }
+    contact-box form {
+        width: 50%;
+    }
+    
+}  */
